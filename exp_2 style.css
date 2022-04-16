@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+.dead {
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    text-align: right ;
+    height: 225px;
+background-color: rgb(13, 243, 243);
+}
+.header {
+    margin-right: 20px;
+    padding-top: 30px;
+}
+.abc:hover, H1:hover {
+    background-color: rgb(210, 245, 153);
+}
+th:hover,td:hover,li:hover {
+    transform: scale(1.1);
+    background-color: rgb(210, 245, 153);
+}
+table,th,td {
+    text-align: center;
+    border-color: black;
+    border: 5px solid;
+    
+}
+
+li {
+    list-style-type: none;
+}
+li:before {
+    content: "\25BA \0020";
+}
+.p {
+    list-style: disc;
+}
+
+.footer:hover {
+    transform: scale(1.4);
+    background-color: rgb(168, 154, 21);
+}
+.o {
+width: 100%;
+height: 200px;
+}
